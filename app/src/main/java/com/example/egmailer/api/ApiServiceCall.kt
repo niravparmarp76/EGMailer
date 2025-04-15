@@ -19,8 +19,8 @@ class ApiServiceCall {
             logging.setLevel(HttpLoggingInterceptor.Level.BODY)
 
             val okHttpClient = OkHttpClient.Builder()
-                .connectTimeout(120, TimeUnit.SECONDS)
-                .readTimeout(30, TimeUnit.SECONDS)
+                // .connectTimeout(120, TimeUnit.SECONDS)
+                // .readTimeout(30, TimeUnit.SECONDS)
                 .addInterceptor(logging)
                 .build()
 
