@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">EGMailer</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">972123971617-e36ve23gjg91behrlvuvfh88q30a1vbk.apps.googleusercontent.com</string>
 </resources>

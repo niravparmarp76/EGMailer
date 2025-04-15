@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit
 
 class ApiServiceCall {
     companion object {
-        private const val backendURL = "https://egmailer-server.onrender.com"
+        private const val backendURL = "https://egmailer-server.onrender.com/"
         lateinit var retrofit: Retrofit
 
         fun getClient(): Retrofit {

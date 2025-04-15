@@ -41,6 +41,9 @@ android {
 dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.play.services.auth)
+
+    // Retrofit
+    implementation(libs.rxandroid)
     implementation(libs.logging.interceptor)
     implementation(libs.adapter.rxjava2)
     implementation(libs.converter.gson)
